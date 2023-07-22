@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "extra_armor_info",
+  "version": "${version}",
+  "name": "Extra Armor Info",
+  "description": "Adds HUD icons for armour toughness and knockback resistance",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {
+    "homepage": "https://mrmelon54.com/minecraft/extra-armor-info",
+    "sources": "https://github.com/MrMelon54/extra_armor_info",
+    "issues": "https://github.com/MrMelon54/extra_armor_info/issues"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrmelon54.ExtraArmorInfo.fabric.ExtraArmorInfoFabric"
+    ]
+  },
+  "mixins": [
+    "extra_armor_info.mixins.json",
+    "extra_armor_info-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0.0"
+  }
+}

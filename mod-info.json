@@ -1,0 +1,10 @@
+{
+  "modid": "extra_armor_info",
+  "modname": "Extra Armor Info",
+  "modclass": "ExtraArmorInfo",
+  "modgroup": "com.mrmelon54.ExtraArmorInfo",
+  "moddesc": "Adds HUD icons for armour toughness and knockback resistance",
+  "modwebsite": "https://mrmelon54.com/minecraft/extra-armor-info",
+  "modsource": "https://github.com/MrMelon54/extra_armor_info",
+  "modissue": "https://github.com/MrMelon54/extra_armor_info/issues"
+}
