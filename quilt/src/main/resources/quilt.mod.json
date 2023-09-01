@@ -12,7 +12,8 @@
       "name": "Extra Armor Info",
       "description": "Adds HUD icons for armour toughness and knockback resistance",
       "contributors": {
-        "MrMelon54": "Owner"
+        "MrMelon54": "Owner",
+        "PiemanDev": "Co-Owner"
       },
       "contact": {
         "homepage": "https://mrmelon54.com/minecraft/extra-armor-info",
@@ -26,6 +27,9 @@
     "entrypoints": {
       "init": [
         "com.mrmelon54.ExtraArmorInfo.quilt.ExtraArmorInfoQuilt"
+      ],
+      "modmenu": [
+        "com.mrmelon54.ExtraArmorInfo.fabriclike.ModMenuIntegration"
       ]
     },
     "depends": [

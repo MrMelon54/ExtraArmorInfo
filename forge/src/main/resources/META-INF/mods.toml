@@ -7,7 +7,7 @@ license = "GPL-3.0-only"
 modId = "extra_armor_info"
 version = "${version}"
 displayName = "Extra Armor Info"
-authors = "MrMelon54"
+authors = "MrMelon54, PiemanDev"
 description = "Adds HUD icons for armour toughness and knockback resistance"
 logoFile = "/icon.png"
 
