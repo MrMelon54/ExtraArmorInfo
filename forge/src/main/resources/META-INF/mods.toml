@@ -1,6 +1,6 @@
 modLoader = "javafml"
-loaderVersion = "[46,)"
-issueTrackerURL = "https://github.com/MrMelon54/extra_armor_info/issues"
+loaderVersion = "*"
+issueTrackerURL = "https://github.com/mrmelon54/extra_armor_info/issues"
 license = "GPL-3.0-only"
 
 [[mods]]
@@ -8,26 +8,26 @@ modId = "extra_armor_info"
 version = "${version}"
 displayName = "Extra Armor Info"
 authors = "MrMelon54, PiemanDev"
-description = "Adds HUD icons for armour toughness and knockback resistance"
+description = "${description}"
 logoFile = "/icon.png"
-
-[[dependencies.extra_armor_info]]
-modId = "forge"
-mandatory = true
-versionRange = "[46,)"
-ordering = "NONE"
-side = "BOTH"
 
 [[dependencies.extra_armor_info]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20,)"
+versionRange = "[${minecraft_version},)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.extra_armor_info]]
 modId = "architectury"
 mandatory = true
-versionRange = "[9.0.0,)"
+versionRange = "[${architectury_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.extra_armor_info]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[${cloth_config_version},)"
 ordering = "AFTER"
 side = "BOTH"
