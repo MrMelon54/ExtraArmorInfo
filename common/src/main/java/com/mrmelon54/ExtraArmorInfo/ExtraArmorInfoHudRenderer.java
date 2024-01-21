@@ -133,7 +133,6 @@ public class ExtraArmorInfoHudRenderer {
                 y += armorIconRowOffset(config.knockback.position);
                 if (isKMiddle)
                     x += config.knockback.side == SideDisplayOption.LEFT ? 9 : -9;
-
             }
         }
 
